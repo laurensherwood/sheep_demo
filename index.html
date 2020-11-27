@@ -10,8 +10,10 @@
 <body style='margin : 0px; overflow: hidden;'>
     
     <a-scene embedded arjs='sourceType: webcam;'>   
-      
-      <img src= "untitled.png" alt="Sheep">
+    <a-assets>
+      <img src="untitled.png" alt="Sheep">
+    </a-assets>
+     <a-image width="1" height="1" src="untitled.png"></a-image>
       <a-text value="Look at my sheep " color="white" position="0 1.2 0" align="center"></a-text>  
       <a-marker-camera preset='hiro'></a-marker-camera>
         
